@@ -33,7 +33,7 @@ To properly execute all steps in order to evaluate the projects, do you will nee
 		"active": true,  
 		"description": "Ghidra is a software reverse engineering (SRE) framework", 
 		"stars": 17491, 
-        "tryToExtractCoverage" : true,
+                "tryToExtractCoverage" : true,
 		"sourceRoots": [
 			"all"
 		], 
