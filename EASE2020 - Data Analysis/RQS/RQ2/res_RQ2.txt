@@ -1,0 +1,44 @@
+
+
+ ##############  RQ2 - PART 1 ##############
+Number of projects where NDUCE/NDUE > NDUSTE/NDUE = 7 :  ['spring-framework', 'ghidra', 'platform_frameworks_base', 'airline', 'XChange', 'j2objc', 'cosbench'] 
+
+
+ ##############  RQ2 - PART 2 ##############
+Number of projects where NDTCE/NDTE < 0.5 = 184 out of 254 (72.44) 
+
+
+ ##############  RQ2 - PART 3 ##############
+Number of projects where NDTCE/NDUCE and NDTSTE_NDUSTE is higher than 50% = 6 out of 254 : ['mockito', 'spring-batch', 'spring-data-redis', 'RxJava', 'vavr', 'thumbnailator'] (2.36%)
+Total_NDTCE/NDUCE > NDTSTE/NDUSTE: 141 out of 207 (68.12)
+Multi-platform_NDTCE/NDUCE > NDTSTE/NDUSTE: 34 out of 46 (73.91)
+Multi-platform_Frameworks_NDTCE/NDUCE > NDTSTE/NDUSTE: 13 out of 16 (81.25)
+Multi-platform_Libraries_NDTCE/NDUCE > NDTSTE/NDUSTE: 18 out of 25 (72.0)
+Multi-platform_Tools_NDTCE/NDUCE > NDTSTE/NDUSTE: 3 out of 5 (60.0)
+Mobile_NDTCE/NDUCE > NDTSTE/NDUSTE: 15 out of 30 (50.0)
+Mobile_Frameworks_NDTCE/NDUCE > NDTSTE/NDUSTE: 6 out of 13 (46.15)
+Mobile_Libraries_NDTCE/NDUCE > NDTSTE/NDUSTE: 6 out of 14 (42.86)
+Mobile_Tools_NDTCE/NDUCE > NDTSTE/NDUSTE: 3 out of 3 (100.0)
+Desktop/Server_NDTCE/NDUCE > NDTSTE/NDUSTE: 92 out of 131 (70.23)
+Desktop/Server_Frameworks_NDTCE/NDUCE > NDTSTE/NDUSTE: 37 out of 53 (69.81)
+Desktop/Server_Libraries_NDTCE/NDUCE > NDTSTE/NDUSTE: 19 out of 27 (70.37)
+Desktop/Server_Tools_NDTCE/NDUCE > NDTSTE/NDUSTE: 36 out of 51 (70.59)
+
+*** START OF OUTLIERS EVALUATION *** 
+Multi-platform - NDTCE/NDUCE | Distribution: Statistics=0.941, p=0.021
+Multi-platform - NDTCE/NDUCE | Distribution does not look Gaussian (reject H0) 
+Multi-platform - NDTCE/NDUCE | Percentiles: 25th=0.242, 75th=0.684, IQR=0.442
+Multi-platform - NDTCE/NDUCE | Identified outliers: [] | Outliers observations: 0 out of 46(0.00%)
+Multi-platform - NDTCE/NDUCE | Non-outlier observations: 46
+Mobile - NDTCE/NDUCE | Distribution: Statistics=0.835, p=0.000
+Mobile - NDTCE/NDUCE | Distribution does not look Gaussian (reject H0) 
+Mobile - NDTCE/NDUCE | Percentiles: 25th=0.000, 75th=0.500, IQR=0.500
+Mobile - NDTCE/NDUCE | Identified outliers: [] | Outliers observations: 0 out of 30(0.00%)
+Mobile - NDTCE/NDUCE | Non-outlier observations: 30
+Desktop/Server - NDTCE/NDUCE | Distribution: Statistics=0.891, p=0.000
+Desktop/Server - NDTCE/NDUCE | Distribution does not look Gaussian (reject H0) 
+Desktop/Server - NDTCE/NDUCE | Percentiles: 25th=0.012, 75th=0.537, IQR=0.525
+Desktop/Server - NDTCE/NDUCE | Identified outliers: [] | Outliers observations: 0 out of 131(0.00%)
+Desktop/Server - NDTCE/NDUCE | Non-outlier observations: 131
+
+*** END OF OUTLIERS EVALUATION *** 
