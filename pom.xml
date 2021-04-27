@@ -6,7 +6,7 @@
 
     <properties>
         <!-- Test Dependencies -->
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <groupId>exceptionhunter</groupId>
