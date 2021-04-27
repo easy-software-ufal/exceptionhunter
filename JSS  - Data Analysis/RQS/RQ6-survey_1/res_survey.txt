@@ -1,0 +1,11 @@
+
+
+ ##############  SURVEY - Q6 ##############
+Country not identified: atlantis
+Asia: 4 (6.06%)
+South America: 2 (3.03%)
+Europe: 40 (60.61%)
+North America: 15 (22.73%)
+Undefined: 1 (1.52%)
+Oceania: 1 (1.52%)
+Eurasia: 3 (4.55%)

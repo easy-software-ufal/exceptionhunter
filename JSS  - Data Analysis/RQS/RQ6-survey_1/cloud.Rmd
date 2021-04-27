@@ -1,0 +1,20 @@
+---
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+library(wordcloud)
+```
+
+
+
+```{r include=TRUE, echo=FALSE} 
+phrasetable <- read.csv(".\\General_Cloud.csv")
+#phrasetable
+#phrasetable <- t(phrasetable)
+#phrasetable
+wordcloud(phrasetable$Phrase,phrasetable$Frequency, scale=c(2,.5), random.order=FALSE, rot.per=0.0, use.r.layout=FALSE, colors=brewer.pal(8, "Dark2"), min.freq = 1)
+
+```

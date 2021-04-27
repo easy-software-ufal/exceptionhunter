@@ -1,0 +1,9 @@
+"Phrase", "Frequency"
+"Focus on Happy Path", 11
+"Rarely prioritized", 5
+"Exceptions are harder to test", 5
+"I cannot agree or disagree", 5
+"We do not neglect them", 2
+"Minority of the tests", 2
+"Exceptions are obvious points for failure", 2
+"Developers neglect test in general", 2

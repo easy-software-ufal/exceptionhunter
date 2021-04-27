@@ -20,10 +20,10 @@ To properly execute all steps in order to evaluate the projects, do you will nee
 
 1. Import the project "exceptionhunter" in your preferred IDE. The *br.ufal.easy.exceptionhunter.ExceptionHunterMain* is the main class.
 2. Import all dependencies using maven
-3. In the folder ***src->main->resources*** open the file ***EASE2020_EASE2020_projects*** and configure the folder path (for your OS) where you desire to save the projects, mongoDB settings, and execution type (all tags or only the latest available).
+3. In the folder ***src->main->resources*** open the file ***projects*** and configure the folder path (for your OS) where you desire to save the projects, mongoDB settings, and execution type (all tags or only the latest available).
 	* e.g., "windowsProjectsRoot": "C:\\projects\\" or  "unixLikeProjectsRoot": "/home/user/projects/";
 	* if you set the "tryToExtractCoverage" to true, the tool will try to query coverage data from Codecov.io and Coveralls.io websites
-4.  Inside the  ***projects*** array in the ***EASE2020_projects*** file, you will see the following structure:
+4.  Inside the  ***projects*** array in the ***projects*** file, you will see the following structure:
 	* The key ***"active"*** specifies if the current project should be evaluated or not. If you do not want to use the project, change the ***true*** to ***false***
 	* We use # instead of . (dot) in tags' name because of mongoDB restrictions.
 ```  
@@ -54,15 +54,17 @@ To properly execute all steps in order to evaluate the projects, do you will nee
 	},
 ```
 5. Before running the tool, add to your execution profile the parameter ***-Xmx8192M*** to increase the Max Heap Size. Big projects require at least 8192M, but for most projects -Xmx4096M is enough.
-6. Once the execution starts, each project will be downloaded to a separated folder inside the path defined in the ***EASE2020_projects***. This process may take a very long time if you choose to analyze all the 600 projects.
+6. Once the execution starts, each project will be downloaded to a separated folder inside the path defined in the ***projects***. This process may take a very long time if you choose to analyze all the 600 projects.
 7. At the end, a ***JSON*** will be created inside of each project's folder with all collected metrics.
 
-## Executing  from the JAR
-1. In the folder ***Executable JAR***, you will see a compiled JAR with all dependencies, called ***exception-hunter-1.0.jar*** and the previous explained ***EASE2020_projects***.
-2. To execute the jar, you need to run the following command line:
-	* ***java -Xmx8192M -jar exception-hunter-1.0.jar ./EASE2020_projects***
+[comment]: <> (## Executing  from JAR)
 
-## Importing only the database
+[comment]: <> (1. In the folder ***Executable JAR***, you will see a compiled JAR with all dependencies, called ***exception-hunter-1.0.jar*** and the previous explained ***EASE2020_projects***.)
+
+[comment]: <> (2. To execute the jar, you need to run the following command line:)
+
+[comment]: <> (	* ***java -Xmx8192M -jar exception-hunter-1.0.jar ./projects***)
+## Importing only the database	
 1. If you do not want to execute the tool but want to see all data, we provide inside the folder ***\database\*** a JSON file, named ***ExceptionHunterDB***.
 2. This way, you can import this JSON directly to mongoDB or open in your text editor.
 

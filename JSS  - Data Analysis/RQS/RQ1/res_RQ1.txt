@@ -1,0 +1,163 @@
+totalNumberOfTestMethods: 346573
+
+
+ ##############  RQ1 - PART 1 ##############
+Total_NEBTM > 0: 254 out of 417(0.6091127098321343)
+Multi-platform_NEBTM > 0: 52 out of 63(0.8253968253968254)
+Multi-platform_Frameworks_NEBTM > 0: 18 out of 22(0.8181818181818182)
+Multi-platform_Libraries_NEBTM > 0: 29 out of 35(0.8285714285714286)
+Multi-platform_Tools_NEBTM > 0: 5 out of 6(0.8333333333333334)
+Mobile_NEBTM > 0: 53 out of 152(0.34868421052631576)
+Mobile_Frameworks_NEBTM > 0: 18 out of 50(0.36)
+Mobile_Libraries_NEBTM > 0: 25 out of 60(0.4166666666666667)
+Mobile_Tools_NEBTM > 0: 10 out of 42(0.23809523809523808)
+Desktop/Server_NEBTM > 0: 149 out of 202(0.7376237623762376)
+Desktop/Server_Frameworks_NEBTM > 0: 59 out of 78(0.7564102564102564)
+Desktop/Server_Libraries_NEBTM > 0: 29 out of 34(0.8529411764705882)
+Desktop/Server_Tools_NEBTM > 0: 61 out of 90(0.6777777777777778)
+
+*** START OF CORRELATIONS EVALUATION *** 
+
+Multi-platform_Correlation (NTM-NEBTM x NEBTM): 0.8482407668188874 pvalue: 1.728600776549051e-18
+Mobile_Correlation (NTM-NEBTM x NEBTM): 0.7601835969165311 pvalue: 6.885781588245297e-30
+Desktop/Server_Correlation (NTM-NEBTM x NEBTM): 0.841212626504186 pvalue: 2.6126639758482306e-55
+
+Multi-platform_Correlation (projectMonths x NEBTM): 0.1797874092705755 pvalue: 0.1585513201882474
+Mobile_Correlation (projectMonths x NEBTM): 0.4000346162691038 pvalue: 3.288900651558528e-07
+Desktop/Server_Correlation (projectMonths x NEBTM): 0.2504328064965459 pvalue: 0.00032478674387297106
+
+Multi-platform_Correlation (contributors x NEBTM): 0.637021200838331 pvalue: 1.9897294566263347e-08
+Mobile_Correlation (contributors x NEBTM): 0.459136345291187 pvalue: 2.6908563439972086e-09
+Desktop/Server_Correlation (contributors x NEBTM): 0.4980820144584631 pvalue: 4.614509702305623e-14
+
+Multi-platform_Correlation (projectMonths x NEBTM): 0.1797874092705755 pvalue: 0.1585513201882474
+Mobile_Correlation (projectMonths x NEBTM): 0.4000346162691038 pvalue: 3.288900651558528e-07
+Desktop/Server_Correlation (projectMonths x NEBTM): 0.2504328064965459 pvalue: 0.00032478674387297106
+
+Multi-platform_Correlation (contributors x NEBTM): 0.637021200838331 pvalue: 1.9897294566263347e-08
+Mobile_Correlation (contributors x NEBTM): 0.459136345291187 pvalue: 2.6908563439972086e-09
+Desktop/Server_Correlation (contributors x NEBTM): 0.4980820144584631 pvalue: 4.614509702305623e-14
+
+Multi-platform_Correlation (projectMonths x NEBTM/NTM): 0.09107675380793348 pvalue: 0.4777656863259788
+Mobile_Correlation (projectMonths x NEBTM/NTM): 0.354404425693468 pvalue: 7.478437485457377e-06
+Desktop/Server_Correlation (projectMonths x NEBTM/NTM): 0.268920016442604 pvalue: 0.00010888734426660034
+
+Multi-platform_Correlation (contributors x NEBTM/NTM): 0.3852710904859928 pvalue: 0.0018203275141159085
+Mobile_Correlation (contributors x NEBTM/NTM): 0.37695227373285445 pvalue: 1.6946490661757601e-06
+Desktop/Server_Correlation (contributors x NEBTM/NTM): 0.30561718298558693 pvalue: 9.735482448163627e-06
+
+Multi-platform_Correlation (projectMonths x NDTE/NDUE): 0.14236909456120692 pvalue: 0.2656773783981609
+Mobile_Correlation (projectMonths x NDTE/NDUE): 0.3374242785959832 pvalue: 2.127624685442951e-05
+Desktop/Server_Correlation (projectMonths x NDTE/NDUE): 0.257793035902898 pvalue: 0.0002122325789882467
+
+Multi-platform_Correlation (contributors x NDTE/NDUE): 0.5114424846221791 pvalue: 1.8381072934897e-05
+Mobile_Correlation (contributors x NDTE/NDUE): 0.4266325744029932 pvalue: 4.2362935062980826e-08
+Desktop/Server_Correlation (contributors x NDTE/NDUE): 0.3724834013571743 pvalue: 4.792360529407834e-08
+
+*** END OF CORRELATION EVALUATION *** 
+
+
+
+ ##############  RQ1 - PART 2 ############## 
+NEBTM_NTM <= 20% | Total:381 out of 417(91.37%)
+NEBTM_NTM <= 10% | Total:317 out of 417(76.02%)
+NEBTM_NTM <= 5% | Total:246 out of 417(58.99%)
+NEBTM_NTM <= 20% | Multi-platform:52 out of 63(82.54%)
+NEBTM_NTM <= 10% | Multi-platform:34 out of 63(53.97%)
+NEBTM_NTM <= 5% | Multi-platform:21 out of 63(33.33%)
+NEBTM_NTM <= 20% | Multi-platform/Frameworks:17 out of 22(77.27%)
+NEBTM_NTM <= 20% | Multi-platform/Libraries:29 out of 35(82.86%)
+NEBTM_NTM <= 20% | Multi-platform/Tools:6 out of 6(100.00%)
+NEBTM_NTM <= 20% | Mobile:144 out of 152(94.74%)
+NEBTM_NTM <= 10% | Mobile:129 out of 152(84.87%)
+NEBTM_NTM <= 5% | Mobile:116 out of 152(76.32%)
+NEBTM_NTM <= 20% | Mobile/Frameworks:50 out of 50(100.00%)
+NEBTM_NTM <= 20% | Mobile/Libraries:55 out of 60(91.67%)
+NEBTM_NTM <= 20% | Mobile/Tools:39 out of 42(92.86%)
+NEBTM_NTM <= 20% | Desktop/Server:185 out of 202(91.58%)
+NEBTM_NTM <= 10% | Desktop/Server:154 out of 202(76.24%)
+NEBTM_NTM <= 5% | Desktop/Server:109 out of 202(53.96%)
+NEBTM_NTM <= 20% | Desktop/Server/Frameworks:75 out of 78(96.15%)
+NEBTM_NTM <= 20% | Desktop/Server/Libraries:29 out of 34(85.29%)
+NEBTM_NTM <= 20% | Desktop/Server/Tools:81 out of 90(90.00%)
+
+*** START OF OUTLIERS EVALUATION *** 
+Multi-platform - NEBTM/NTM | Distribution: Statistics=0.871, p=0.000
+Multi-platform - NEBTM/NTM | Distribution does not look Gaussian (reject H0) 
+Multi-platform - NEBTM/NTM | Percentiles: 25th=0.019, 75th=0.149, IQR=0.130
+Multi-platform - NEBTM/NTM | Identified outliers: [0.3652, 0.3676, 0.41] | Outliers observations: 3 out of 63(4.76%)
+Multi-platform - NEBTM/NTM | Non-outlier observations: 60
+Mobile - NEBTM/NTM | Distribution: Statistics=0.567, p=0.000
+Mobile - NEBTM/NTM | Distribution does not look Gaussian (reject H0) 
+Mobile - NEBTM/NTM | Percentiles: 25th=0.000, 75th=0.043, IQR=0.043
+Mobile - NEBTM/NTM | Identified outliers: [0.1111, 0.1111, 0.1136, 0.12, 0.127, 0.1321, 0.1467, 0.1667, 0.1686, 0.1818, 0.1923, 0.2045, 0.2174, 0.2273, 0.2308, 0.2626, 0.3, 0.4286, 0.4815] | Outliers observations: 19 out of 152(12.50%)
+Mobile - NEBTM/NTM | Non-outlier observations: 133
+Desktop/Server - NEBTM/NTM | Distribution: Statistics=0.593, p=0.000
+Desktop/Server - NEBTM/NTM | Distribution does not look Gaussian (reject H0) 
+Desktop/Server - NEBTM/NTM | Percentiles: 25th=0.000, 75th=0.096, IQR=0.096
+Desktop/Server - NEBTM/NTM | Identified outliers: [0.2581, 0.2669, 0.2857, 0.3177, 0.375, 0.3826, 0.4, 0.41, 0.416, 0.75, 0.8473, 1.0] | Outliers observations: 12 out of 202(5.94%)
+Desktop/Server - NEBTM/NTM | Non-outlier observations: 190
+
+*** END OF OUTLIERS EVALUATION *** 
+
+
+ ##############  RQ1 - PART 3 ############## 
+NDTE/NDUE <= 10% | Total:239 out of 417(57.31%)
+NDTE/NDUE <= 10% | Frameworks:83 out of 150(55.33%)
+NDTE/NDUE <= 10% | Libraries:55 out of 129(42.64%)
+NDTE/NDUE <= 10% | Tools:101 out of 138(73.19%)
+NDTE/NDUE <= 10% | Multi-platform:21 out of 63(33.33%)
+NDTE/NDUE <= 10% | Multi-platform/Frameworks:8 out of 22(36.36%)
+NDTE/NDUE <= 10% | Multi-platform/Libraries:9 out of 35(25.71%)
+NDTE/NDUE <= 10% | Multi-platform/Tools:4 out of 6(66.67%)
+NDTE/NDUE <= 10% | Mobile:111 out of 152(73.03%)
+NDTE/NDUE <= 10% | Mobile/Frameworks:34 out of 50(68.00%)
+NDTE/NDUE <= 10% | Mobile/Libraries:38 out of 60(63.33%)
+NDTE/NDUE <= 10% | Mobile/Tools:39 out of 42(92.86%)
+NDTE/NDUE <= 10% | Desktop/Server:107 out of 202(52.97%)
+NDTE/NDUE <= 10% | Desktop/Server/Frameworks:41 out of 78(52.56%)
+NDTE/NDUE <= 10% | Desktop/Server/Libraries:8 out of 34(23.53%)
+NDTE/NDUE <= 10% | Desktop/Server/Tools:58 out of 90(64.44%)
+
+*** START OF OUTLIERS EVALUATION *** 
+Multi-platform - NDTE/NDUE | Distribution: Statistics=0.925, p=0.001
+Multi-platform - NDTE/NDUE | Distribution does not look Gaussian (reject H0) 
+Multi-platform - NDTE/NDUE | Percentiles: 25th=0.057, 75th=0.345, IQR=0.288
+Multi-platform - NDTE/NDUE | Identified outliers: [0.8] | Outliers observations: 1 out of 63(1.59%)
+Multi-platform - NDTE/NDUE | Non-outlier observations: 62
+Mobile - NDTE/NDUE | Distribution: Statistics=0.587, p=0.000
+Mobile - NDTE/NDUE | Distribution does not look Gaussian (reject H0) 
+Mobile - NDTE/NDUE | Percentiles: 25th=0.000, 75th=0.123, IQR=0.123
+Mobile - NDTE/NDUE | Identified outliers: [0.3095, 0.3111, 0.3158, 0.3333, 0.3333, 0.3333, 0.3333, 0.3371, 0.3438, 0.375, 0.4, 0.4167, 0.4231, 0.4706, 0.75, 0.75, 1.0] | Outliers observations: 17 out of 152(11.18%)
+Mobile - NDTE/NDUE | Non-outlier observations: 135
+Desktop/Server - NDTE/NDUE | Distribution: Statistics=0.815, p=0.000
+Desktop/Server - NDTE/NDUE | Distribution does not look Gaussian (reject H0) 
+Desktop/Server - NDTE/NDUE | Percentiles: 25th=0.000, 75th=0.208, IQR=0.208
+Desktop/Server - NDTE/NDUE | Identified outliers: [0.5508, 0.5778, 0.6667, 0.7273, 1.0] | Outliers observations: 5 out of 202(2.48%)
+Desktop/Server - NDTE/NDUE | Non-outlier observations: 197
+
+*** END OF OUTLIERS EVALUATION *** 
+
+
+ ############## RQ1 - PART 4 ############## 
+Number of Projects where NADTE > NDTE 127 de 417 0.30455635491606714
+
+*** START OF OUTLIERS EVALUATION *** 
+Multi-platform - NADTE/NDUE | Distribution: Statistics=0.844, p=0.000
+Multi-platform - NADTE/NDUE | Distribution does not look Gaussian (reject H0) 
+Multi-platform - NADTE/NDUE | Percentiles: 25th=0.057, 75th=0.495, IQR=0.438
+Multi-platform - NADTE/NDUE | Identified outliers: [1.25, 1.6053] | Outliers observations: 2 out of 63(3.17%)
+Multi-platform - NADTE/NDUE | Non-outlier observations: 61
+Mobile - NADTE/NDUE | Distribution: Statistics=0.581, p=0.000
+Mobile - NADTE/NDUE | Distribution does not look Gaussian (reject H0) 
+Mobile - NADTE/NDUE | Percentiles: 25th=0.000, 75th=0.133, IQR=0.133
+Mobile - NADTE/NDUE | Identified outliers: [0.3333, 0.3333, 0.3333, 0.3333, 0.3377, 0.3556, 0.3571, 0.4, 0.4231, 0.4706, 0.4719, 0.5, 0.5, 0.5, 0.5, 0.75, 1.0, 1.0, 1.0] | Outliers observations: 19 out of 152(12.50%)
+Mobile - NADTE/NDUE | Non-outlier observations: 133
+Desktop/Server - NADTE/NDUE | Distribution: Statistics=0.830, p=0.000
+Desktop/Server - NADTE/NDUE | Distribution does not look Gaussian (reject H0) 
+Desktop/Server - NADTE/NDUE | Percentiles: 25th=0.000, 75th=0.250, IQR=0.250
+Desktop/Server - NADTE/NDUE | Identified outliers: [0.6447, 0.6525, 0.6667, 0.6667, 0.6774, 0.7273, 0.7391, 1.0] | Outliers observations: 8 out of 202(3.96%)
+Desktop/Server - NADTE/NDUE | Non-outlier observations: 194
+
+*** END OF OUTLIERS EVALUATION *** 
+******************

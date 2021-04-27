@@ -5,8 +5,8 @@
   "newestTagOnly": true,
   "tryToExtractCoverage" : true,
   "mongoConnectionString": "mongodb://localhost:27017",
-  "mongoDatabaseName": "ExceptionHunter_EASE2020",
-  "mongoCollectionName": "ease2020_projects",
+  "mongoDatabaseName": "ExceptionHunter",
+  "mongoCollectionName": "projects",
   "projects": [
     {
       "lastUpdatedAt": "24/09/2019 16:10:13",

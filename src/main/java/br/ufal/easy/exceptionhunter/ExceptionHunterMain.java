@@ -16,7 +16,7 @@ public class ExceptionHunterMain {
 
 
         boolean downloadOnly = false;
-        String jsonPath = ProjectsManagerSingleton.class.getClassLoader().getResource("EASE2020_projects.json").getPath();
+        String jsonPath = ProjectsManagerSingleton.class.getClassLoader().getResource("projects.json").getPath();
 
 
         if (args.length == 1){
