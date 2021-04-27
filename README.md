@@ -72,3 +72,4 @@ To properly execute all steps in order to evaluate the projects, do you will nee
 
 ## Scripts
 Inside the folder ***EASE2020 - Data Analysis*** we provide the python scripts that we used in our data analysis.
+Inside the folder ***JSS - Data Analysis*** we provide the python scripts that we used in our data analysis.
